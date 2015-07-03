@@ -4,10 +4,11 @@
   "description": "Links all NodeJS/iojs dependencies and executables to one self-contained executable",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bin/jslinker"
   },
   "bin": {
-    "jslinker": "./bin/jslinker"
+    "jslinker": "bin/jslinker"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/sebastian-software/jslinker/issues"
   },
-  "homepage": "https://github.com/sebastian-software/jslinker#readme"
+  "homepage": "https://github.com/sebastian-software/jslinker#readme",
+  "dependencies": {
+    "fs-extra": "^0.20.1",
+    "fstream": "^1.0.7",
+    "mkdirp": "^0.5.1",
+    "request": "^2.58.0",
+    "tar": "^2.1.1",
+    "temp-fs": "^0.9.6"
+  }
 }
