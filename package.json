@@ -1,0 +1,31 @@
+{
+  "name": "jslinker",
+  "version": "0.0.1",
+  "description": "Links all NodeJS/iojs dependencies and executables to one self-contained executable",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jslinker": "./bin/jslinker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-software/jslinker.git"
+  },
+  "keywords": [
+    "node",
+    "iojs",
+    "package",
+    "packager",
+    "executable",
+    "embedded",
+    "exe"
+  ],
+  "author": "Sebastian Fastner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastian-software/jslinker/issues"
+  },
+  "homepage": "https://github.com/sebastian-software/jslinker#readme"
+}
