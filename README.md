@@ -13,9 +13,15 @@ You need a full working NodeJS/iojs application that is described by a package.j
 - Run `npm install`
 - Run `jslinker --engine iojs --version v2.3.1 --platform linux --arch x64`
 
-Now there is a new file <packagename>-<package version>-<platform>-<arch> that is executable. This file has no external dependencies.
+Now there is a new file [packagename]-[package version]-[platform]-[arch] that is executable. This file has no external dependencies.
 
 To get help you can simply run `jslink --help`.
+
+# Limitations
+
+- Internet connection is required (nodejs or iojs is downloaded in the requested version)
+- Linux and Mac only
+- A well formed package.json with an start script is required
 
 # License
 
