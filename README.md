@@ -3,6 +3,8 @@ Links all NodeJS/iojs dependencies and executables to one self-contained executa
 
 [![Travis CI](https://travis-ci.org/sebastian-software/jslinker.svg?branch=master)](https://travis-ci.org/sebastian-software/jslinker)
 [![Code Climate](https://codeclimate.com/github/sebastian-software/jslinker/badges/gpa.svg)](https://codeclimate.com/github/sebastian-software/jslinker)
+[![npm version](https://badge.fury.io/js/jslinker.svg)](http://badge.fury.io/js/jslinker)
+[![Dependency Status](https://gemnasium.com/sebastian-software/jslinker.svg)](https://gemnasium.com/sebastian-software/jslinker)
 
 # Installation
 
