@@ -1,6 +1,6 @@
 {
   "name": "jslinker",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Links all NodeJS/iojs dependencies and executables to one self-contained executable",
   "main": "lib/index.js",
   "scripts": {
