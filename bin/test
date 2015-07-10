@@ -1,0 +1,22 @@
+#!/bin/bash
+
+pushd `dirname $0` > /dev/null
+SCRIPTPATH=`pwd`
+popd > /dev/null
+
+cd ${SCRIPTPATH}/..
+
+echo "Run jslinker on itself"
+EXE=$(${SCRIPTPATH}/jslinker | grep created | awk '{ print $1; }')
+
+echo ""
+echo "Run generated file $EXE"
+./$EXE --help
+
+if [ $? -eq 1 ]; then
+	echo "Test succeeded"
+	exit 0
+fi
+
+echo "Test failed"
+exit 1
