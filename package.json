@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/sebastian-software/jslinker#readme",
   "dependencies": {
+    "appdirectory": "^0.1.0",
     "fs-extra": "^0.22.1",
     "fstream": "^1.0.7",
     "is-iojs": "^1.1.0",
