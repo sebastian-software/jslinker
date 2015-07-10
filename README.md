@@ -1,6 +1,8 @@
 # JSLinker
 Links all NodeJS/iojs dependencies and executables to one self-contained executable
 
+<img src="https://travis-ci.org/sebastian-software/jslinker.svg?branch=master" />
+
 # Installation
 
 Run `npm install -g jslinker`
