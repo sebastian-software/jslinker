@@ -5,6 +5,7 @@ Links all NodeJS/iojs dependencies and executables to one self-contained executa
 [![Code Climate](https://codeclimate.com/github/sebastian-software/jslinker/badges/gpa.svg)](https://codeclimate.com/github/sebastian-software/jslinker)
 [![npm version](https://badge.fury.io/js/jslinker.svg)](http://badge.fury.io/js/jslinker)
 [![Dependency Status](https://gemnasium.com/sebastian-software/jslinker.svg)](https://gemnasium.com/sebastian-software/jslinker)
+[![downloads per month](http://img.shields.io/npm/dm/jslinker.svg)](https://www.npmjs.org/package/jslinker)
 
 # Installation
 
