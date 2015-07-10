@@ -1,7 +1,8 @@
 # JSLinker
 Links all NodeJS/iojs dependencies and executables to one self-contained executable
 
-<img src="https://travis-ci.org/sebastian-software/jslinker.svg?branch=master" />
+[![Travis CI](https://travis-ci.org/sebastian-software/jslinker.svg?branch=master)](https://travis-ci.org/sebastian-software/jslinker)
+[![Code Climate](https://codeclimate.com/github/sebastian-software/jslinker/badges/gpa.svg)](https://codeclimate.com/github/sebastian-software/jslinker)
 
 # Installation
 
