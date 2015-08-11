@@ -11,6 +11,14 @@ if [ -z `which tar` ]; then
   die 'tar not found'
 fi
 
+if [ -z `which awk` ]; then
+  die 'awk not found'
+fi
+
+if [ -z `which tail` ]; then
+  die 'tail not found'
+fi
+
 if [ -f "$OUTPUT" ]; then
   die 'output path must be directory'
 fi
